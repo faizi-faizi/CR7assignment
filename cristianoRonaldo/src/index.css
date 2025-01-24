@@ -1,0 +1,57 @@
+.homePage{
+  height:calc(100vh - 56px);
+  background-color: #20587a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://wallpapercat.com/w/full/2/e/e/100307-2197x1463-desktop-hd-cristiano-ronaldo-background-photo.jpg");
+  background-size: cover;
+}
+
+.aboutImage{
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px;
+  
+}
+
+.aboutText{
+  font-size: 20px;
+}
+
+.AchievemnetIcons{
+  font-size: 50px;
+  
+}
+
+.cards {
+  box-shadow: 0 2px 2px rgba(74, 74, 74, 0.2);
+  border-radius: 10px; 
+  border: none; 
+  transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.cards:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(147, 147, 147, 0.3); 
+}
+
+.galleryImage{
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.aboutContainer{
+  background-color: #F8F9FA;
+}
+
+.gallaryContainer{
+  background-color: #F8F9FA;
+}
+
+.footer{
+  background-color: rgb(78, 78, 78);
+}
